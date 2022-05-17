@@ -1,4 +1,10 @@
-.PhotoViewer .photo {
+.PhotoViewer .photoSmall {
   width: 300px;
   height: 200px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.PhotoViewer .photoSmall:hover {
+  transform: scale(1.1);
 }

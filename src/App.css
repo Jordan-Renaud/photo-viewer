@@ -5,6 +5,12 @@
 .App .photoContainer {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  width: 100vw;
+  width: 90vw;
   gap: 3rem;
+  margin: 0 auto;
+}
+
+.App .largeImage {
+  width: 60%;
+  margin-bottom: 5rem;
 }
