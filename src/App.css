@@ -7,10 +7,9 @@
   grid-template-columns: repeat(4, 1fr);
   width: 90vw;
   gap: 3rem;
-  margin: 0 auto;
+  margin: 3rem auto;
 }
 
 .App .largeImage {
   width: 60%;
-  margin-bottom: 5rem;
 }
